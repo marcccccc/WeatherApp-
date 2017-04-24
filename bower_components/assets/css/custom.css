@@ -1,0 +1,148 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*Navbar*/
+
+.navbar {
+	background: rgba(255, 255, 255, 0);
+	padding: 25px 200px 0;
+	padding: 25px;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.navbar-brand {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+/*	margin-right: 50px;*/
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+
+.nav-item {
+	font-size: 14px;
+}
+
+.nav-menu {
+	margin: 3px auto 0;
+}
+
+.nav-menu .nav-item {
+	margin-left: 65px;
+}
+
+.social-icons .nav-item {
+	margin-left: 32px;
+}
+
+.social-icons > li:nth-of-type(3) img {
+	margin-top: 4px;
+}
+
+
+/*Banner*/
+
+.banner {
+	height: 100vh;
+	background: #648cff;
+	background-image: url(../images/wave-one.png), url(../images/wave-two.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: bottom center, bottom center;
+	background-size: 100% 40%, 100% 40%;
+	padding-top: 90px;
+	color: #fff;
+	border-radius: 50 / 8%;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.br-section {
+	margin-top: 125px;
+}
+
+.br-section>h1 {
+	font-size: 2.8125em;
+	font-weight: bold;
+}
+
+.br-section>h3 {
+	font-size: 1em;
+	margin: 45px 0;
+	width: 80%;
+}
+
+.br-section>button {
+	margin-right: 12px;
+	padding: 10px 30px;
+}
+
+.br-section>button a {
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.br-section>button:nth-of-type(1) {
+	background: #fc6a42;
+	border: 1px solid #fc6a42;
+}
+
+.br-section>button:nth-of-type(2) {
+	background: #4466c9;
+	border: 1px solid #4466c9;
+}
+
+.bl-section {}
+
+.bl-section-first-col > img,
+.bl-section-third-col div:nth-of-type(2) img {
+	width: 70px;
+}
+
+.bl-section-first-col > img {
+	display: inline-block;
+	margin-left: 60px;
+	margin-top: 280px;
+}
+
+.bl-section-second-col > img {
+	width: 220px;
+	margin-top: 75px;
+}
+
+.bl-section-third-col div:nth-of-type(1) > img {
+	width: 50px;
+	height: 40px;
+	margin: 135px 0 0 35px;
+}
+
+.bl-section-third-col div:nth-of-type(1) {
+	height: 58px;
+} 
+
+.bl-section-third-col div:nth-of-type(2) {
+	margin: 220px 0 0 40px;
+	height: 66px;
+}
+
+.bl-section-third-col div:nth-of-type(3) {
+	margin: 165px 0 0 30px;
+}
+
+.dropdown>.dropdown-button {
+	margin: 15px auto 0;
+}
+
+.dropdown-button>img {
+	width: 40px;
+}
+
+/* FEATURES */
